@@ -1,0 +1,64 @@
+# Ignore arquivos binários e de build
+bin/
+obj/
+out/
+
+# Arquivos de lock e pacotes
+project.lock.json
+**/project.assets.json
+**/packages.lock.json
+**/nuget.config
+**/nuget.exe
+**/Packages/
+
+# Configurações do Visual Studio
+.vs/
+*.user
+*.suo
+*.vscode/
+*.code-workspace
+
+# Logs e arquivos temporários
+**/*.log
+**/*.tlog
+**/*.cache
+**/*.pdb
+
+# Configurações do sistema operacional
+Thumbs.db
+Desktop.ini
+
+# Arquivos gerados pelo dotnet
+**/app.db
+**/app.db-journal
+**/*.pidb
+
+# Certificados de desenvolvimento
+**/*.pfx
+**/*.p12
+
+# Docker
+**/.dockerignore
+**/docker-compose.override.yml
+**/docker-compose*.yml
+**/Dockerfile
+
+# Configurações específicas do Rider e Resharper
+.idea/
+*.sln.iml
+**/.resharper/
+**/resharper.xml
+
+# Diretórios de publicação
+**/publish/
+**/dist/
+**/staging/
+
+# Outros arquivos desnecessários
+*.bak
+*.swp
+*.swn
+*.swo
+
+# Arquivos do Secrets Manager do .NET
+**/secrets.json
