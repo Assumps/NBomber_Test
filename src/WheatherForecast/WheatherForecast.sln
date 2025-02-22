@@ -3,9 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WheatherForecast", "WheatherForecast.csproj", "{7FFE7CFB-C2F1-47FC-90E0-6AB02954ABC1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WheatherForecast", "WheatherForecast.csproj", "{7FFE7CFB-C2F1-47FC-90E0-6AB02954ABC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NBomber_LoadTest", "..\NBomber_LoadTest\NBomber_LoadTest.csproj", "{91A7744B-33AF-4174-9397-07D0D0DFB6EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NBomber_LoadTest", "..\NBomber_LoadTest\NBomber_LoadTest.csproj", "{91A7744B-33AF-4174-9397-07D0D0DFB6EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{290AA5D1-62F1-45E5-BC67-556D904B0D1C}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\README.md = ..\..\README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
