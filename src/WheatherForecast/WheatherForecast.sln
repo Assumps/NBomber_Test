@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WheatherForecast", "WheatherForecast.csproj", "{7FFE7CFB-C2F1-47FC-90E0-6AB02954ABC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NBomber_LoadTest", "..\NBomber_LoadTest\NBomber_LoadTest.csproj", "{91A7744B-33AF-4174-9397-07D0D0DFB6EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FFE7CFB-C2F1-47FC-90E0-6AB02954ABC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FFE7CFB-C2F1-47FC-90E0-6AB02954ABC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FFE7CFB-C2F1-47FC-90E0-6AB02954ABC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FFE7CFB-C2F1-47FC-90E0-6AB02954ABC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91A7744B-33AF-4174-9397-07D0D0DFB6EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91A7744B-33AF-4174-9397-07D0D0DFB6EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91A7744B-33AF-4174-9397-07D0D0DFB6EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91A7744B-33AF-4174-9397-07D0D0DFB6EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {796B9C8F-B888-4501-A02F-1B9D89EFE9DA}
+	EndGlobalSection
+EndGlobal
